@@ -135,3 +135,5 @@ import 'core-js/stable';
 
 //Polifilling async functions
 import 'regenerator-runtime/runtime';
+
+console.log(BUG);

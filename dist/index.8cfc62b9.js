@@ -628,6 +628,7 @@ const jonas = new Person("Jonas");
 console.log("Jonas" ?? null);
 console.log((0, _shoppingCartJs.cart).find((el)=>el.quantity >= 2));
 Promise.resolve("TEST").then((x)=>console.log(x));
+console.log(BUG);
 
 },{"./shoppingCart.js":"l6bJl","lodash-es":"bXNwz","regenerator-runtime/runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","core-js/modules/es.array.includes.js":"dkJzX","core-js/modules/web.immediate.js":"49tUX"}],"l6bJl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
