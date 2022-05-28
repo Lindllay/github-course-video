@@ -135,3 +135,8 @@ import 'core-js/stable';
 
 //Polifilling async functions
 import 'regenerator-runtime/runtime';
+
+const feature = new (function () {
+  console.log('Nowy ficzer');
+})();
+feature();
